@@ -9,6 +9,10 @@ body {
   font-family: 'PT Sans', sans-serif;
 }
 
+.m-d {
+  display: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -75,7 +79,7 @@ li {
 }
 
 .header-top-h2 {
-  font-size: 16;
+  font-size: 20px;
   color: #595959;
   font-weight: 300;
   font-style: italic;
@@ -173,12 +177,12 @@ li {
   letter-spacing: normal;
   line-height: 60px;
   text-align: left;
+  margin: 0 auto;
   font-style: normal;
   letter-spacing: 0.3px;
   line-height: normal;
   margin-bottom: 20px;
   width: 474px;
-  margin: 0 auto;
 }
 
 .main-slider-p {
@@ -736,5 +740,192 @@ li {
   line-height: normal;
   padding-top: 16px;
   border-top: 1px solid #808080;
+}
+
+@media (max-width: 1024px) {
+  .main-slider {
+    padding: 20px;
+  }
+  .main-slider-h2 {
+    font-size: 48px;
+    width: 100%;
+  }
+  .main-slider-p {
+    width: 100%;
+  }
+  .post-min-img {
+    width: 100%;
+  }
+  .post-big-img {
+    width: 100%;
+  }
+  .post-big-p {
+    width: 100%;
+  }
+  .baner-baner {
+    height: 237px;
+  }
+  .baner-facebook-box img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-top-h1 {
+    font-size: 30px;
+  }
+  .header-top-h2 {
+    font-size: 16px;
+  }
+  .header-menu-link {
+    font-size: 14px;
+  }
+  .main-slider-h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-nav {
+    display: none;
+  }
+  .main-slider {
+    height: 100%;
+    padding-bottom: 50px;
+  }
+  .main-slider-p {
+    font-size: 16px;
+  }
+  .main-slider-h2 {
+    font-size: 28px;
+  }
+  .d-n {
+    display: none;
+  }
+  .m-d {
+    display: block;
+  }
+  .d-n320 {
+    display: none;
+  }
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #48974c;
+    margin: 6px 0;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  .menu-hamburger {
+    position: fixed;
+    z-index: 99;
+  }
+  .menu__box {
+    text-align: center;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 70px;
+    z-index: 100;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 250px;
+    background-color: #48974c;
+  }
+  .menu__item {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  .menu__item a {
+    color: #262626;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 0.08px;
+    line-height: normal;
+    font-style: normal;
+    letter-spacing: 0.08px;
+  }
+  .menu__item a:hover {
+    color: #48974c;
+  }
+  .header-top {
+    padding-bottom: 0;
+  }
+  .navbar-active {
+    display: block;
+  }
+  .pagination-box-more {
+    margin-left: 0;
+    margin-bottom: 40px;
+  }
+  .baner-facebook {
+    margin-bottom: 10px;
+  }
+  .footer {
+    text-align: center;
+  }
+  .footer-text {
+    text-align: center;
+    max-width: 100%;
+  }
+  .footer-h2 {
+    text-align: center;
+    font-size: 28px;
+  }
+  .footer-p {
+    text-align: center;
+    max-width: 100%;
+  }
+  .footer-status {
+    margin-left: 0;
+    margin-bottom: 5px;
+  }
+  .footer-nav-item {
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  .baner {
+    padding-bottom: 22px;
+  }
+  .post-big-bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .post-big-buttom {
+    margin-bottom: 10px;
+  }
+  .more-box {
+    margin-left: 30px;
+    margin-bottom: 70px;
+  }
+  .more-text {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .more-link {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

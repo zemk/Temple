@@ -15,3 +15,7 @@ const swiper = new Swiper('.swiper', {
 
   
 });
+var menuButton = document.querySelector('.menu-hamburger');
+  menuButton.addEventListener('click', function() {
+    document.querySelector('.menu__box').classList.toggle('navbar-active');
+  });
